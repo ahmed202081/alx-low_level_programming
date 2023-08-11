@@ -1,2 +1,2 @@
 #!/bin/bash
-man gcc -c $CFILE -o "echo $CFILE "
+gcc main.c $CFILE -o "echo $CFILE | cut -d. -f1" .o
