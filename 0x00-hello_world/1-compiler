@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE="1-main.c" gcc -o "$(echo $CFILE | cut -d. -f1)" "$CFILE"
+man gcc -c $CFILE -o "echo $CFILE "
