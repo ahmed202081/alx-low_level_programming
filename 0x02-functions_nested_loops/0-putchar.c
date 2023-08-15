@@ -7,7 +7,10 @@
 * Description: This program prints "_putchar" followed by a new line.
 * Return: 0 (success)
 */
+#ifndef MAIN_H
+#define MAIN_H
 	int _putchar(char c)
+#endif /* MAIN_H */
 {
 	return write(1, &c, 1);
 }
