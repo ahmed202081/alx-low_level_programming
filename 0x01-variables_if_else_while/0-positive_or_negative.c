@@ -24,6 +24,6 @@ int main(void)
 	printf("zero\n");
 	else
 	printf("negative\n");
-
+	/** Indicate successful execution of the program */
 	return (0);
 }
