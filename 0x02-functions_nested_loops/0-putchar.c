@@ -1,31 +1,20 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 
 /**
-* File: 0-putchar.c
-* Author: [Your Name]
-* Description: This program prints "_putchar" followed by a new line.
-* Return: 0 (success)
+*main - function prints text as output
+*
+*Return:return 0
 */
-#ifndef MAIN_H
-#define MAIN_H
-	int _putchar(char c)
-#endif /* MAIN_H */
+int main(void)
 {
-	return write(1, &c, 1);
-}
+	char school[10] = "_putchar";
 
-	int main(void)
-{
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	int i;
 
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(school[i]);
+	}
+	_putchar(10);
 	return (0);
 }
