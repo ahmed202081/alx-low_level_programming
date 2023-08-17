@@ -12,5 +12,5 @@ int print_sign(int n);
 int _abs(int i);
 int print_last_digit(int n);
 void jack_bauer(void);
-void times_table(void);
+void print_times_table(int n);
 void print_alphabet_x10(void);
